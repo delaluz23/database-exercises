@@ -1,4 +1,5 @@
 USE codeup_test_db;
+truncate albums;
 ALTER TABLE albums
     MODIFY genre VARCHAR(100);
 describe albums;
