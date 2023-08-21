@@ -12,11 +12,7 @@ limit 5;
 SELECT emp_no
 FROM salaries
 ORDER BY salary
-LIMIT 5 OFFSET 0;
-SELECT emp_no
-FROM salaries
-ORDER BY salary
-LIMIT 5 OFFSET 5;
+LIMIT 5 OFFSET 45;
 SELECT emp_no
 FROM salaries
 ORDER BY salary
